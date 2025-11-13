@@ -10,8 +10,8 @@ if exists("syntax_on")
 endif
 let g:colors_name="limited"
 
-" Accent color: 46
-
+" Accent color: 46 // #00FF00
+"
 " --------------------------------
 " Editor settings
 " --------------------------------
@@ -42,24 +42,24 @@ hi TabLineSel      ctermfg=Black        ctermbg=Black    cterm=NONE    guifg=#0D
 " - File Navigation / Searching -
 " -------------------------------
 hi Directory       ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
-hi Search          ctermfg=White        ctermbg=210      cterm=NONE    guifg=#0D0D0D    guibg=46    gui=NONE
-hi IncSearch       ctermfg=White        ctermbg=210      cterm=NONE    guifg=#0D0D0D    guibg=46    gui=NONE
+hi Search          ctermfg=White        ctermbg=210      cterm=NONE    guifg=#0D0D0D    guibg=#00FF00    gui=NONE
+hi IncSearch       ctermfg=White        ctermbg=210      cterm=NONE    guifg=#0D0D0D    guibg=#00FF00    gui=NONE
 
 " -----------------
 " - Prompt/Status -
 " -----------------
-hi StatusLine      ctermfg=210          ctermbg=Black    cterm=NONE    guifg=46    guibg=#0D0D0D    gui=NONE
+hi StatusLine      ctermfg=210          ctermbg=Black    cterm=NONE    guifg=#00FF00    guibg=#0D0D0D    gui=NONE
 hi StatusLineNC    ctermfg=Black        ctermbg=Black    cterm=NONE    guifg=#0D0D0D    guibg=#0D0D0D    gui=NONE
-hi WildMenu        ctermfg=210          ctermbg=Black    cterm=NONE    guifg=46    guibg=#0D0D0D    gui=NONE
+hi WildMenu        ctermfg=210          ctermbg=Black    cterm=NONE    guifg=#00FF00    guibg=#0D0D0D    gui=NONE
 hi Question        ctermfg=DarkGray     ctermbg=Black    cterm=NONE    guifg=#404040    guibg=#0D0D0D    gui=NONE
 hi Title           ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
 hi ModeMsg         ctermfg=DarkGray     ctermbg=Black    cterm=NONE    guifg=#404040    guibg=#0D0D0D    gui=NONE
-hi MoreMsg         ctermfg=210          ctermbg=Black    cterm=NONE    guifg=46    guibg=#0D0D0D    gui=NONE
+hi MoreMsg         ctermfg=210          ctermbg=Black    cterm=NONE    guifg=#00FF00    guibg=#0D0D0D    gui=NONE
 
 " --------------
 " - Visual aid -
 " --------------
-hi MatchParen      ctermfg=210          ctermbg=DarkGray     cterm=NONE    guifg=46    guibg=#404040    gui=NONE
+hi MatchParen      ctermfg=210          ctermbg=DarkGray     cterm=NONE    guifg=#00FF00    guibg=#404040    gui=NONE
 hi Visual          ctermfg=White        ctermbg=DarkGray     cterm=NONE    guifg=#F2F2F2    guibg=#404040    gui=NONE
 hi VisualNOS       ctermfg=White        ctermbg=DarkGray     cterm=NONE    guifg=#F2F2F2    guibg=#404040    gui=NONE
 hi NonText         ctermfg=Black        ctermbg=Black        cterm=NONE    guifg=#0D0D0D    guibg=#0D0D0D    gui=NONE
@@ -98,7 +98,7 @@ hi Label           ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2
 hi Operator        ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
 hi Keyword         ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
 hi Exception       ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
-hi Comment         ctermfg=46      ctermbg=Black    cterm=NONE    guifg=#404040    guibg=#0D0D0D    gui=NONE
+hi Comment         ctermfg=DarkGray     ctermbg=Black    cterm=NONE    guifg=#00FF00    guibg=#0D0D0D    gui=NONE
 
 hi Special         ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
 hi SpecialChar     ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
@@ -140,7 +140,7 @@ hi PmenuThumb      ctermfg=Gray     ctermbg=Black    cterm=NONE    guifg=#8C8C8C
 " --------------------------------
 " Spelling
 " --------------------------------
-hi SpellBad        ctermfg=210      ctermbg=Black    cterm=NONE    guifg=46    guibg=#0D0D0D    gui=NONE
+hi SpellBad        ctermfg=210      ctermbg=Black    cterm=NONE    guifg=#00FF00    guibg=#0D0D0D    gui=NONE
 hi SpellCap        ctermfg=White    ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
 hi SpellLocal      ctermfg=White    ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
 hi SpellRare       ctermfg=White    ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
