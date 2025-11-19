@@ -16,8 +16,8 @@ let g:colors_name="limited"
 " Editor settings
 " --------------------------------
 hi Normal          ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
-hi Cursor          ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
-hi CursorLine      ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#F2F2F2    guibg=#0D0D0D    gui=NONE
+hi Cursor          ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#00FF00    guibg=#0D0D0D    gui=NONE
+hi CursorLine      ctermfg=White        ctermbg=Black    cterm=NONE    guifg=#00FF00    guibg=#0D0D0D    gui=NONE
 hi LineNr          ctermfg=DarkGray     ctermbg=Black    cterm=NONE    guifg=#404040    guibg=#0D0D0D    gui=NONE
 hi CursorLineNR    ctermfg=DarkGray     ctermbg=Black    cterm=NONE    guifg=#404040    guibg=#0D0D0D    gui=NONE
 
